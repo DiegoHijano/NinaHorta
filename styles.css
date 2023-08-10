@@ -58,11 +58,6 @@ nav a{
     font-size: 1.3rem;
     line-height: 1.5;
 }
-@media (max-width: 768px){
-.content_card p {
-    text-align: center;
-}
-}
 .content_card p{
     text-align: justify;
 }
