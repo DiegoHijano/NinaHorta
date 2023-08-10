@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #C8BFE7;
+    font-family: 'Merriweather', serif;
+}
+header{
+    background-color: #7F6E99;
+    text-align: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+nav a{
+    text-align: left;
+}
+.titulo h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 4rem;
+}
+.titulo h2{
+    margin-top: 10px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin-top: 30px;
+        align-items: center;
+    }
+}
+.tarjeta{
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 20px; 
+    border-radius: 20px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    max-height: 700px;
+    width: 520px;
+    margin-right: 100px;
+}
+@media (max-width: 768px) {
+    .tarjeta{
+        order: 2;
+        width: 100%;
+        max-width: 420px;
+        margin: 20px;
+    }
+}
+.content_card{
+    padding: 20px 10px 0px 10px ;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+@media (max-width: 768px) {
+    .content_card{
+    font-size: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .content_card h1{
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom: 10px;
+    }
+}
+.content_card iframe{
+    margin-top: 30px;
+}
+
+.Nina{
+    border-radius: 20px;  
+}
+
+@media (max-width: 768px) {
+    .Nina{
+        order: 1;
+        width: 100%;
+        border-radius: 200px;
+        max-width: 270px;
+        margin: 0 auto 20px;
+    }
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    background-color: #7F6E99;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+footer a{
+    color: black;
+    font-size: 5rem;
+    padding: 0 30px 0 30px;
+    text-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 768px) {
+    footer a{
+        font-size: 3rem;
+    }
+}
+footer a:hover{
+    transform: translateY(-3px);
+}
