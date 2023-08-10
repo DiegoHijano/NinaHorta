@@ -55,7 +55,7 @@ nav a{
 }
 .content_card{
     padding: 20px 10px 0px 10px ;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1.5;
 }
 .content_card h1{
@@ -64,18 +64,19 @@ nav a{
 }
 @media (max-width: 768px) {
     .content_card{
-    font-size: 1rem;
+    font-size: 1.3rem;
+    margin-top: -20px;
     }
 }
 @media (max-width: 768px) {
     .content_card h1{
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     text-align: center;
     padding-bottom: 10px;
     }
 }
 .content_card iframe{
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .Nina{
