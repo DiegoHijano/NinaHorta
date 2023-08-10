@@ -61,6 +61,12 @@ nav a{
 .content_card p{
     text-align: justify;
 }
+}
+@media (max-width: 768px){
+.content_card p {
+    text-align: center;
+}
+}
 .content_card h1{
     font-size: 2rem;
     padding-bottom: 30px;
